@@ -23,6 +23,7 @@ import {EventBus} from './services/event.bus';
 import {HeaderComponent} from './header/header.component';
 import {FlexAlignmentHackDirective} from './directives/flex-alignment-hack';
 import {TruncatePipe} from './pipes/truncate';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import {TruncatePipe} from './pipes/truncate';
     CenterSpinnerComponent,
     HeaderComponent,
     FlexAlignmentHackDirective,
-    TruncatePipe
+    TruncatePipe,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
